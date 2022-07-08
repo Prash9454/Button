@@ -1,0 +1,70 @@
+<style>
+  .subscribe-button{
+    background-color: rgb(228, 24, 24);
+    color: White;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: opacity 0.15s;
+  }
+  .subscribe-button:hover{
+   opacity: 0.2;
+  }
+  .subscribe-button:active{
+  opacity: 0.6;
+    
+  }
+  .join-button{
+    background-color: white;
+    border-color: rgb(49, 138, 221);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(243, 235, 226);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 1s,
+    color 0.15s;
+    padding: 15px;
+    padding-left: 30px;
+    padding-top: 20px;
+  
+  }
+  .join-button:hover{
+    background-color: rgb(49, 138, 221);
+    color: rgb(152, 165, 233);
+  }
+  .join-button:active{
+    opacity:0.7;
+  }
+  .tweet-button{
+    background-color: rgb(73, 168, 223);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 80px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+
+  }
+  .tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+</style>
+<button class="subscribe-button">
+  SUBSCRIBE Channel
+</button>
+<button class="join-button">JOIN my Channel</button>
+<button class="Tweet-button">
+  Tweet
+</button>
+
